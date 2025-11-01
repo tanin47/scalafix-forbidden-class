@@ -1,0 +1,8 @@
+package fix
+
+import java.time.Instant
+
+object Example {
+  val now = Instant.now()
+  println(java.time.temporal.ChronoUnit.YEARS)
+}
